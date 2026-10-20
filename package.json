@@ -1,0 +1,17 @@
+{
+  "name": "codeneura-course-management-api",
+  "version": "1.0.0",
+  "description": "A learning project demonstrating Node.js, Express, REST APIs, MySQL CRUD, validation, and database joins.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["nodejs", "express", "rest-api", "mysql", "crud", "codneura"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
